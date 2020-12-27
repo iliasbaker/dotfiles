@@ -10,3 +10,4 @@ set fish_greeting
 alias v='vim'
 alias h='history'
 alias config='/usr/bin/git --git-dir=/home/leo/.cfg/ --work-tree=/home/leo'
+alias py='python3'
