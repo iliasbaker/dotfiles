@@ -1,0 +1,14 @@
+input#typeans {
+ display:block;
+ border:none;
+ border-bottom:1px solid #ccc;
+ width:100%;
+ font-family: "Noto Sans", Ubuntu, "Manjari", Arimo, Arial;
+ background-color: #eee;
+ font-size: 24px;
+}
+input#typeans.nightMode {
+  background-color: #333;
+  color: #fff;
+}
+

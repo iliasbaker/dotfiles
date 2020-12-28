@@ -1,0 +1,5 @@
+/* STYLE FOR CLOZE DELETIONS */
+.cloze, .cloze b, .cloze u, .cloze i {
+  font-weight: bold;
+  color: #27aea0 !important;
+}
