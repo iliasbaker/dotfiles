@@ -47,11 +47,11 @@ __all__ = ["heatmap_colors", "heatmap_modes", "config_defaults", "config"]
 # info on each theme in the future.
 heatmap_colors = OrderedDict(
     (
-        ("lime", {"label": "Lime"}),
+        ("lime", {"label": "Rose"}),
         ("olive", {"label": "Sea"}),
         ("ice", {"label": "Ice"}),
-        ("magenta", {"label": "Magenta"}),
-        ("flame", {"label": "Flame"}),
+        ("magenta", {"label": "Aussie"}),
+        ("flame", {"label": "Shame"}),
     )
 )
 
