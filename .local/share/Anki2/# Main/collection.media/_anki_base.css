@@ -1,15 +1,18 @@
-/* Style for rest of card */
 html {
 	overflow: scroll;
 	overflow-x: hidden;
 }
-.card {
+.card, input#typeans {
 	font-family: "Noto Sans", Ubuntu, Manjari, Arimo, Arial;
 	font-size: 24px;
+}
+.card {
 	background-color: #eee;
+	color: #333;
 }
 .card.nightMode {
 	background-color: #333;
+	color: #eee;
 }
 .color-red{color:#d65447}
 .color-green{color:#27ae60}
@@ -24,4 +27,17 @@ html {
 .subtitle {
 	font-size: 18px;
 	font-style: italic;
+}
+/* Cloze deletions */
+.cloze, .cloze b, .cloze u, .cloze i {
+  font-weight: bold;
+  color: #27aea0 !important;
+}
+input#typeans {
+ display:block;
+ border:none;
+ border-bottom:1px solid #ccc;
+ width:100%;
+ background-color:rgba(0,0,0,0);
+ color:inherit;
 }
