@@ -4,7 +4,7 @@ html {
 }
 .card, input#typeans {
 	font-family: "Noto Sans", Ubuntu, Manjari, Arimo, Arial;
-	font-size: 24px;
+	font-size: 22px;
 }
 .card {
 	background-color: #eee;
@@ -14,19 +14,42 @@ html {
 	background-color: #333;
 	color: #eee;
 }
-.color-red{color:#d65447}
-.color-green{color:#27ae60}
-.color-blue{color:#489fd9}
-.color-grey{color:#777}
+.color-red {
+	color:#d43424;
+}
+.nightMode .color-red {
+	color:#f26868;
+}
+.color-green {
+	color:#137d40;
+}
+.nightMode .color-green {
+	color:#27ae60;
+}
+.color-blue {
+	color:#2c69bf;
+}
+.nightMode .color-blue {
+	color: #52aeeb;
+}
+.color-grey {
+	color:#777;
+}
+.nightMode .color-grey {
+	color:#999;
+}
 .center {
 	text-align: center;
 }
 .small {
-	font-size: 20px;
+	font-size: 19px;
 }
 .subtitle {
-	font-size: 18px;
+	font-size: 17px;
 	font-style: italic;
+}
+img {
+	max-height: 200px;
 }
 /* Cloze deletions */
 .cloze, .cloze b, .cloze u, .cloze i {
